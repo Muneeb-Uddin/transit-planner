@@ -1,4 +1,15 @@
-*.exe
+# Build outputs
 *.o
 *.out
+*.exe
+transit_planner
+
+# Local network saves
+**/network.txt
+**/network-*.tmp
+
+# IDE / OS
 .vscode/
+.idea/
+.DS_Store
+Thumbs.db
